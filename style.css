@@ -1,0 +1,101 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*.logo{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 55%;
+    margin-top: 20%;
+}
+*/
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilos dos Grupos de Formulário */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-group input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+/* Estilos para os Botões */
+.botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.botoes button[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.botoes button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+.botoes button[type="reset"] {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.botoes button[type="reset"]:hover {
+    background-color: #c82333;
+}
+
+/* Estilos para Termos e Condições */
+.termos {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.termos label {
+    margin: 0;
+    color: #555;
+}

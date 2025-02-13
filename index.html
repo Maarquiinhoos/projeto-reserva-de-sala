@@ -1,0 +1,58 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--
+    <div class="logo" >
+        <img src="imagens/logo-senai-1.png" alt="Logo-senai">
+    </div>
+    -->
+    <div class="form-container">
+        <h1>Cadastro</h1>
+        <form id="cadastroForm">
+            <!-- Informações Pessoais -->
+            <div class="form-group">
+                <label for="nomeCompleto">Nome Completo:</label>
+                <input type="text" id="nomeCompleto" name="nomeCompleto" required>
+            </div>
+        
+            
+
+            <!-- Informações de Contato -->
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+    
+            <!-- Segurança -->
+            <div class="form-group">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" minlength="8" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmarSenha">Confirmar Senha:</label>
+                <input type="password" id="confirmarSenha" name="confirmarSenha" required>
+            </div>
+
+            <!-- Termos e Condições -->
+            <div class="form-group termos">
+                <input type="checkbox" id="termos" name="termos" required>
+                <label for="termos">Aceito os termos e condições</label>
+            </div>
+
+            <!-- Botões -->
+            <div class="form-group botoes">
+                <button type="submit">Cadastrar</button>
+                <button type="reset">Cancelar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
